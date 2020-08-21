@@ -3,11 +3,11 @@
   <title>B4博客</title>
   
   
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://blog.bu40.com/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://blog.bu40.com/"/>
   <updated>2020-08-20T08:06:44.685Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://blog.bu40.com/</id>
   
   <author>
     <name>blog.bu40.com</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>如何使用使用github搭建一个网站</title>
-    <link href="http://yoursite.com/2020/08/20/djwz/"/>
-    <id>http://yoursite.com/2020/08/20/djwz/</id>
+    <link href="http://blog.bu40.com/2020/08/20/djwz/"/>
+    <id>http://blog.bu40.com/2020/08/20/djwz/</id>
     <published>2020-08-20T07:27:44.005Z</published>
     <updated>2020-08-20T08:06:44.685Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>欢迎访问本blog</title>
-    <link href="http://yoursite.com/2020/07/26/hello-world/"/>
-    <id>http://yoursite.com/2020/07/26/hello-world/</id>
+    <link href="http://blog.bu40.com/2020/07/26/hello-world/"/>
+    <id>http://blog.bu40.com/2020/07/26/hello-world/</id>
     <published>2020-07-26T08:05:52.593Z</published>
     <updated>2020-08-20T07:24:12.050Z</updated>
     
