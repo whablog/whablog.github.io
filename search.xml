@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>欢迎访问本blog</title>
-    <url>/2020/07/26/hello-world/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>如何使用使用github搭建一个网站</title>
     <url>/2020/08/20/djwz/</url>
     <content><![CDATA[<h2 id="注册（以下按箭头来）"><a href="#注册（以下按箭头来）" class="headerlink" title="注册（以下按箭头来）"></a>注册（以下按箭头来）</h2><p>先去<a href="github.com">github.com</a>注册一个账号：如下图<br><a href="https://imgchr.com/i/d8vk60" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/08/20/d8vk60.png" alt="d8vk60.png"></a><br><img src="https://static.codemao.cn/FqVZRu9106EntFjY0e7v35knBH5V" alt=""><br><img src="https://static.codemao.cn/Fst9uHmdai163K-TgKmgXUqPaGNu" alt=""><br><img src="https://static.codemao.cn/FgOyRzw7x6Gop9xvN1CaCrRzM093" alt=""><br><img src="https://static.codemao.cn/Fvs65uSfET4LeiXsUOMrKJ1NyroJ" alt=""><br><a href="https://imgchr.com/i/d8xUbT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/08/20/d8xUbT.png" alt="d8xUbT.png"></a></p>
 <h2 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h2><p>注意：这里绿箭头指的要填[用户名].github.io<br><img src="https://static.codemao.cn/Fswrsisa2ykXNMe2zfWEXv6Z3c57" alt=""><br>点creating a new 输入你的代码(如 “hello world”)<br><img src="https://static.codemao.cn/Fo2vZ1JyglcaB41Thh3dv2_M1KGC" alt=""><br>同时把文件名改成index.html<br><a href="https://imgchr.com/i/dGSgAO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/08/20/dGSgAO.png" alt="dGSgAO.png"></a><br>翻到最下面<br><a href="https://imgchr.com/i/dGSxvn" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/08/20/dGSxvn.png" alt="dGSxvn.png"></a><br>等一分钟后访问[用户名].github.io即可看到刚才的页面</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>欢迎访问本blog</title>
+    <url>/2020/07/26/hello-world/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
