@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>博客</title>
+  <title>B4博客</title>
   
   
   <link href="http://yoursite.com/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>whablog.github.io</name>
+    <name>blog.bu40.com</name>
     
   </author>
   
