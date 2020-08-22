@@ -8,8 +8,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>欢迎访问本blog</title>
-    <url>/2020/07/26/hello-world/</url>
-    <content><![CDATA[]]></content>
+    <title>更改博客默认字体</title>
+    <url>/2020/08/22/mrzt/</url>
+    <content><![CDATA[<p>在index.ejs末尾加上<style>body {font-family: sans-serif;}</style>即可。</p>
+]]></content>
   </entry>
 </search>
