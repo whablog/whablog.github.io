@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, B4博客">
+    <meta name="keywords" content="使用hexo在github上搭建博客, B4博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | B4博客</title>
+    <title>使用hexo在github上搭建博客 | B4博客</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/libs/awesome/css/all.css">
@@ -246,12 +246,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/medias/featureimages/15.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">tags</h1>
+                    <h1 class="description center-align post-title">使用hexo在github上搭建博客</h1>
                 </div>
             </div>
         </div>
@@ -380,7 +380,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-08-21
+                    2020-08-24
                 </div>
                 
 
@@ -389,7 +389,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    441
                 </div>
                 
 
@@ -411,7 +411,41 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="1-注册github"><a href="#1-注册github" class="headerlink" title="1. 注册github"></a>1. 注册github</h1><p> 如果不会请看<a href="https://blog.bu40.com/2020/08/20/djwz/">这里</a></p>
+<h1 id="2-下载git"><a href="#2-下载git" class="headerlink" title="2. 下载git"></a>2. 下载git</h1><p> <a href="https://dl.softmgr.qq.com/original/Development/Git-2.28.0-64-bit.exe" target="_blank" rel="noopener">点击链接下载</a></p>
+<p> 下载好安装，一直按next就行。</p>
+<h1 id="3-下载nodejs"><a href="#3-下载nodejs" class="headerlink" title="3. 下载nodejs"></a>3. 下载nodejs</h1><p> <a href="https://dl.softmgr.qq.com/original/Development/node-v12.18.3-x64.msi" target="_blank" rel="noopener">64位下载</a><br> <a href="https://dl.softmgr.qq.com/original/Development/node-v12.18.3-x86.msi" target="_blank" rel="noopener">32位下载</a></p>
+<p>下载好安装，一直按next就行。</p>
+<h1 id="4-验证是否安装"><a href="#4-验证是否安装" class="headerlink" title="4. 验证是否安装"></a>4. 验证是否安装</h1><p>cmd输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">git -version</span><br></pre></td></tr></table></figure>
+<p>如果出现版本号则是安装成功</p>
+<h1 id="5-安装hexo"><a href="#5-安装hexo" class="headerlink" title="5. 安装hexo"></a>5. 安装hexo</h1><p>找一个地方建一个文件夹</p>
+<p>在这个文件夹中右键，点击git bush here</p>
+<p><img src="https://s1.ax1x.com/2020/08/24/ds41wq.png" alt="右键图片.png"></p>
+<p>输入npm install hexo -g，开始安装Hexo</p>
+<p>输入hexo -v ，如果出现版本号就是安装好了</p>
+<p>输入hexo init，需要等待到显示“Start blogging with Hexo！”。</p>
+<p>输入npm install 等待至安装成功</p>
+<p>输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>会显示如下，复制网址在浏览器打开即可预览</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>ctrl+c停止预览</p>
+<h1 id="6-获取私钥和公钥"><a href="#6-获取私钥和公钥" class="headerlink" title="6. 获取私钥和公钥"></a>6. 获取私钥和公钥</h1><p>输入如下获取私钥和公钥 (替换成自己的用户名和邮箱)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;注册邮箱&quot;</span><br><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
+<p>会显示</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">our identification has been saved in 路径&#x2F;id_rsa.</span><br><span class="line">our public key has been saved in 路径.ssh&#x2F;id_rsa.pub.</span><br></pre></td></tr></table></figure>
+<p>登录Github，点击头像，再点击settings</p>
+<p>点击SSH and GPG keys，再点new ssh key</p>
+<p>将id_rsa.pub文件里的内容复制到那里，再点add SSH key。</p>
+<p>输入$ ssh -T <a href="mailto:git@github.com">git@github.com</a> 如果显示了你的用户名和邮箱，就成功了</p>
+<p>输入 npm install hexo-deployer-git –save 安装git插件</p>
+<p>在 _config.yml 中找到关于deploy部分</p>
+<p>替换为(用户名改成自己的用户名)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:用户名&#x2F;用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>输入 hexo d -g</p>
+<p>完成后等待1分钟访问网站，就可以看到网站部署成功了</p>
+
             </div>
             <hr/>
 
@@ -436,7 +470,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://blog.bu40.com/tags/index.html">http://blog.bu40.com/tags/index.html</a>
+                    <a href="http://blog.bu40.com/2020/08/24/hexo/">http://blog.bu40.com/2020/08/24/hexo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -666,24 +700,30 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/tags/index.html">
+                <a href="/2020/08/24/hexo/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/medias/featureimages/17.jpg" class="responsive-img" alt="tags">
+                        <img src="https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/medias/featureimages/15.jpg" class="responsive-img" alt="使用hexo在github上搭建博客">
                         
-                        <span class="card-title">tags</span>
+                        <span class="card-title">使用hexo在github上搭建博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            1. 注册github 如果不会请看这里
+2. 下载git 点击链接下载
+ 下载好安装，一直按next就行。
+3. 下载nodejs 64位下载 32位下载
+下载好安装，一直按next就行。
+4. 验证是否安装cmd输入
+12node -v
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-24
                             </span>
                         <span class="publish-author">
                             
@@ -701,27 +741,28 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/tags/index.html">
+                <a href="/2020/08/22/mrzt/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/medias/featureimages/17.jpg" class="responsive-img" alt="tags">
+                        <img src="https://cdn.jsdelivr.net/gh/whablog/whablog.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="更改博客默认字体">
                         
-                        <span class="card-title">tags</span>
+                        <span class="card-title">更改博客默认字体</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            在index.ejs末尾加上body {font-family: sans-serif;}即可。
+
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-22
                             </span>
                         <span class="publish-author">
                             
@@ -731,7 +772,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
