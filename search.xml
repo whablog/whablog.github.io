@@ -34,16 +34,18 @@ git -version</code></pre><p>如果出现版本号则是安装成功</p>
 <pre><code>hexo g
 hexo s</code></pre><p>会显示如下，复制网址在浏览器打开即可预览</p>
 <pre><code>INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</code></pre><p>ctrl+c停止预览</p>
-<h1 id="6-获取私钥和公钥"><a href="#6-获取私钥和公钥" class="headerlink" title="6. 获取私钥和公钥"></a>6. 获取私钥和公钥</h1><p>输入如下获取私钥和公钥 (替换成自己的用户名和邮箱)</p>
+<h1 id="6-获取私钥和公钥"><a href="#6-获取私钥和公钥" class="headerlink" title="6. 获取私钥和公钥"></a>6. 获取私钥和公钥</h1><p>输入 输入 npm install hexo-deployer-git –save 安装git插件</p>
+<p>输入如下获取私钥和公钥 (替换成自己的用户名和邮箱)</p>
 <pre><code>git config --global user.name &quot;用户名&quot;
 git config --global user.email &quot;注册邮箱&quot;
 ssh-keygen</code></pre><p>会显示</p>
 <pre><code>our identification has been saved in 路径/id_rsa.
-our public key has been saved in 路径.ssh/id_rsa.pub.</code></pre><p>登录Github，点击头像，再点击settings</p>
+our public key has been saved in 路径.ssh/id_rsa.pub.</code></pre><p>然后输入</p>
+<pre><code>y
+你的密码</code></pre><p>登录Github，点击头像，再点击settings</p>
 <p>点击SSH and GPG keys，再点new ssh key</p>
 <p>将id_rsa.pub文件里的内容复制到那里，再点add SSH key。</p>
 <p>输入$ ssh -T <a href="mailto:git@github.com">git@github.com</a> 如果显示了你的用户名和邮箱，就成功了</p>
-<p>输入 npm install hexo-deployer-git –save 安装git插件</p>
 <p>在 _config.yml 中找到关于deploy部分</p>
 <p>替换为(用户名改成自己的用户名)</p>
 <pre><code>deploy:
